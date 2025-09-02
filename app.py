@@ -29,9 +29,9 @@ def run_dashboard():
     create_summary_table(df, "summary_table1")
     
     # Calculate button
-    st.markdown("---")
-    if st.button("🧮 Calculate Credibility Assessment", type="primary"):
-        st.info("Calculate function will be implemented in the next step!")
+    # st.markdown("---")
+    # if st.button("🧮 Calculate Credibility Assessment", type="primary"):
+    #     st.info("Calculate function will be implemented in the next step!")
     
     st.markdown("---")
     
@@ -65,7 +65,7 @@ def run_dashboard():
     
     table4_data = get_table_data("table4")
     create_matrix_table(table4_data, "table4", "matrix_text")
-    
+
     st.markdown("### Selected Values:")
     display_matrix_selected_values(table4_data, "table4", "matrix_text")
     

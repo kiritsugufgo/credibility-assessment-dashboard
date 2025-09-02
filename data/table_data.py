@@ -58,15 +58,15 @@ def get_table_data(table_name):
             ]
         },
         "table2": {
-            'row_labels': ['1', '2', '3', '4'],
+            'row_labels': ['4', '3', '2', '1'],
             'col_labels': ['1', '2', '3', '4'],
             'row_title': 'DESIGN SOLUTION',
             'col_title': 'M&S credibility / maturity',
             'data': [
-                [1, 1, 2, 2],
-                [1, 2, 2, 3],
+                [2, 3, 4, 4],
                 [2, 2, 3, 4],
-                [2, 3, 4, 4]
+                [1, 2, 2, 3],
+                [1, 1, 2, 2]
             ]
         },
         "table3": {

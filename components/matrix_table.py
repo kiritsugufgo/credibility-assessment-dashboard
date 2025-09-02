@@ -30,10 +30,9 @@ def _create_numeric_matrix(table_data, table_id):
     row_title = table_data['row_title']
     col_title = table_data['col_title']
     
-    # Create container with proper spacing
+    # Container with proper spacing
     st.markdown("<div style='margin: 20px 0;'>", unsafe_allow_html=True)
     
-    # Add CSS for better text visibility in buttons
     st.markdown("""
     <style>
     /* Make text in secondary buttons dark and bold */
@@ -276,6 +275,7 @@ def _create_text_matrix(table_data, table_id):
                            type="primary" if is_selected else "secondary",
                            help=cell_text):
                     _toggle_matrix_cell_selection(table_id, row_idx, col_idx, is_selected)
+                    
 
 def _toggle_matrix_cell_selection(table_id, row_idx, col_idx, is_selected):
     """Toggle the selection state of a matrix cell"""
@@ -317,3 +317,4 @@ def display_matrix_selected_values(table_data, table_id, table_type):
             st.write(text)
     else:
         st.write("No cell selected yet.")
+        
