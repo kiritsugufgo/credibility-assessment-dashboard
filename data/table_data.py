@@ -75,10 +75,10 @@ def get_table_data(table_name):
             'row_title': 'DECISION CONSEQUENCE',
             'col_title': 'SIMULATION INFLUENCE',
             'data': [
-                ['green', 'green', 'green', 'yellow'],
-                ['green', 'green', 'green', 'yellow'],
+                ['yellow', 'yellow', 'red', 'red'],
                 ['green', 'yellow', 'yellow', 'red'],
-                ['yellow', 'yellow', 'red', 'red']
+                ['green', 'yellow', 'yellow', 'yellow'],
+                ['green', 'green', 'green', 'yellow']
             ]
         },
         "table4": {

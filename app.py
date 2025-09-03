@@ -3,7 +3,8 @@ import pandas as pd
 from data.table_data import get_table_data, get_table_type
 from components.selectable_table import create_selectable_table
 from components.summary_table import create_summary_table
-from components.matrix_table import create_matrix_table, display_matrix_selected_values
+from components.matrix_table import create_matrix_table
+from components.matrix_utils import display_matrix_selected_values
 
 def run_dashboard():
     """Main function to run the Streamlit dashboard"""
